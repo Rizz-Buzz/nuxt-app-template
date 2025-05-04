@@ -6,5 +6,8 @@ export default defineNuxtConfig({
       port: process.env['PORT'] ? parseInt(process.env['PORT']) : undefined
     },
     devtools: { enabled: true }
-  }
+  },
+  runtimeConfig: {
+    apiURL: '' // defined by NUXT_API_URL environment variable
+  },
 })
