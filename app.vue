@@ -30,6 +30,7 @@ useHead({
 <template>
   <div>
     <NuxtPage />
+    <DSToastContainer />
   </div>
 </template>
 

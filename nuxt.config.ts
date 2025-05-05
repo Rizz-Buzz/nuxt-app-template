@@ -13,5 +13,5 @@ export default defineNuxtConfig({
     apiURL: '' // defined by NUXT_API_URL environment variable
   },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
 })
